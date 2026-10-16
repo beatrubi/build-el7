@@ -10,4 +10,4 @@ RUN \
   sed -i -E 's/^%wheel/# %wheel/; s/# %wheel(.*NOPASSWD:)/%wheel\1/' \
     /etc/sudoers
 USER build
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
