@@ -1,4 +1,4 @@
-# Build EL9
+# Build EL7
 
 Simple container containing build tools to create RPMs. Suitable for GitHub and GitLab pipelines.
 
